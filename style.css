@@ -135,18 +135,18 @@
 
 /* Completed */
 #completed-tasks .tasks__label {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 .tasks__item .tasks__text {
-  display: none
+  display: none;
 }
 
 .edit-mode .tasks__text {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .tasks__item.edit-mode .tasks__label {
