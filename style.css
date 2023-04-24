@@ -37,7 +37,7 @@
   width: 56%;
   display: inline-block;
   flex-grow: 1;
-  outline:none;
+  outline: none;
 }
 
 .new-element__inner {
@@ -45,18 +45,18 @@
 }
 
 .tasks__list {
-  margin:0;
+  margin: 0;
   padding: 0;
 }
 
 .btn {
   background: none;
-  border: 0px;
+  border: 0;
   color: #888;
   font-size: 15px;
   width: 60px;
   font-family: Lato, sans-serif;
-  outline:none;
+  outline: none;
   cursor: pointer;
 }
 
@@ -113,7 +113,7 @@
 
 .tasks__checkbox {
   margin: 0 10px;
-  outline:none;
+  outline: none;
 }
 
 .tasks__label {
@@ -141,14 +141,14 @@
 
 /* Edit Task */
 .tasks__item .tasks__text {
-  display:none
+  display: none
 }
 
 .edit-mode .tasks__text {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .tasks__item.edit-mode .tasks__label {
-  display:none;
+  display: none;
 }
