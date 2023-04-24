@@ -128,11 +128,11 @@
   display:none
 }
 
-.editMode .tasks__text {
+.edit-mode .tasks__text {
   display:inline-block;
   width:224px
 }
 
-.tasks__item.editMode .tasks__label {
+.tasks__item.edit-mode .tasks__label {
   display:none;
 }
